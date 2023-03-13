@@ -1,15 +1,18 @@
-
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-
 :root {
-    --color-secondary: #56704a;
-    --color-primary: #d5dbd2;
-  }
+  --color-secondary: #56704a;
+  --color-primary: #d5dbd2;
+}
 
-  h1 {
-    color: var(--color-secondary);
-  }
+nav {
+    list-style: none;
+}
+
+h1 {
+  border: solid 2px black;
+  background-color: blue;
+}
